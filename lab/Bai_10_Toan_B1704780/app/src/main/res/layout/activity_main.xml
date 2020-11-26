@@ -1,18 +1,107 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
-
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:textColor="#ff0000"
+        android:textSize="24sp"
+        android:textAllCaps="true"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="#ffffaa"
+        android:text="@string/txt0"
+    android:textStyle="bold"/>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <EditText
+        android:id="@+id/txtText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:background="#fbf"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:hint="@string/edittext1"/>
+
+    <Button
+        android:id="@+id/btnSave1"
+        android:text="@string/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:layout_gravity="center"
+        android:background="#bff"
+        android:onClick="onClickSaveInternal"
+        />
+
+    <Button
+        android:id="@+id/btnSave2"
+        android:text="@string/btn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:background="#A0D381"
+        android:layout_gravity="center"
+        android:onClick="onClickSaveExternal"
+        />
+
+    <Button
+        android:id="@+id/btnLoad1"
+        android:text="@string/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:background="#bff"
+        android:layout_gravity="center"
+        android:onClick="onClickLoadInternal"
+        />
+
+    <Button
+        android:id="@+id/btnLoad2"
+        android:text="@string/btn4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:background="#A0D381"
+        android:layout_gravity="center"
+        android:onClick="onClickLoadExternal"
+        />
+
+    <Button
+        android:id="@+id/help"
+        android:text="@string/btn6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+    android:padding="5dp"
+    android:layout_gravity="center"
+    />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp"
+            android:src="@drawable/hoasung"
+            android:adjustViewBounds="true"/>
+    </FrameLayout>
+</LinearLayout>

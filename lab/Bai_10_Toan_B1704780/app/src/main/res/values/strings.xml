@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">Bai_10_Toan_B1704780</string>
+    <string name="txt0">Save the file</string>
+    <string name="edittext1">Enter the text you want to save</string>
+    <string name="btn1">SAVE TO INTERNAL STOGARE</string>
+    <string name="btn3">SAVE TO EXTERNAL STOGARE</string>
+    <string name="btn2">LOAD FROM INTERNAL STORAGE</string>
+    <string name="btn4">LOAD FROM EXTERNAL STORAGE</string>
+    <string name="btn6">HELP</string>
+    <string name="txtstatic1">STATIC RESOUCRES</string>
+    <string name="txtstatic2">HELP</string>
+    <string name="title_activity_static_resources">StaticResources</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
 </resources>
