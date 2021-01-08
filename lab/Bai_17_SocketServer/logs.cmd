@@ -1,0 +1,1 @@
+heroku logs --app=bai17 --source=app --tail
