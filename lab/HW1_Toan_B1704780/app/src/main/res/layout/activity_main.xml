@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="HOME WORK VẼ ĐỒ THỊ"
+        android:textAllCaps="true"
+        android:textColor="#0000ff"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="Thực hành vẽ 3 loại đồ thị Line Plot, Bar Charts và Pie Charts
+sử dụng các thư viện Androidplot, MPAndroidChart"
+        android:textAllCaps="true"
+        android:textColor="#0000ff"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/lineplot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="#f0f0ff"
+        android:text="LINES PLOT"
+        android:textColor="#ff0000" />
+
+    <Button
+        android:id="@+id/barplot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="#f0f0ff"
+        android:text="BAR CHARTS"
+        android:textColor="#ff00ff" />
+
+    <Button
+        android:id="@+id/pieplot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="#f0f0ff"
+        android:text="PIE CHARTS"
+        android:textColor="#2a00ff" />
+
+    <Button
+        android:id="@+id/thoat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="#f0f0ff"
+        android:text="EXIT"
+        android:textColor="#002Aff" />
+</LinearLayout>
